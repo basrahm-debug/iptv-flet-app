@@ -6,6 +6,24 @@ CHANNELS_JSON_PATH = "remote/channels.json"
 
 # مثال: قائمة مصادر جاهزة من GitHub (يمكنك إضافة أكثر من مصدر)
 M3U_SOURCES = [
+    # ----------------- قنوات دينية -----------------
+    "https://iptv-org.github.io/iptv/countries/sa.m3u",      # السعودية
+    "https://iptv-org.github.io/iptv/countries/eg.m3u",      # مصر
+    "https://iptv-org.github.io/iptv/countries/ae.m3u",      # الإمارات
+    "https://iptv-org.github.io/iptv/genres/religion.m3u",   # قنوات دينية عامة
+
+    # ----------------- قنوات إخبارية -----------------
+    "https://iptv-org.github.io/iptv/streams/news.m3u",      # أخبار عالمية
+    "https://iptv-org.github.io/iptv/streams/world.m3u",     # قنوات متنوعة عالمية
+
+    # ----------------- قنوات رياضية -----------------
+    "https://iptv-org.github.io/iptv/streams/sports.m3u",    # رياضية عامة
+    "https://iptv-org.github.io/iptv/countries/gb.m3u",      # بريطانيا (تشمل رياضية وأخبارية)
+    
+    # ----------------- قنوات متنوعة -----------------
+    "https://iptv-org.github.io/iptv/streams/entertainment.m3u",
+    "https://iptv-org.github.io/iptv/streams/music.m3u"
+
     # قنوات دينية
     "https://iptv-org.github.io/iptv/countries/sa.m3u",  # السعودية - تشمل قنوات دينية وإخبارية
     "https://iptv-org.github.io/iptv/countries/eg.m3u",  # مصر - قناة دينية + عامة
