@@ -6,8 +6,12 @@ CHANNELS_JSON_PATH = "remote/channels.json"
 
 # مثال: قائمة مصادر جاهزة من GitHub (يمكنك إضافة أكثر من مصدر)
 M3U_SOURCES = [
-    "https://raw.githubusercontent.com/someuser/iptv/main/quran.m3u",
-    "https://raw.githubusercontent.com/someuser/iptv/main/news.m3u"
+    # قنوات دينية
+    "https://iptv-org.github.io/iptv/countries/sa.m3u",  # السعودية - تشمل قنوات دينية وإخبارية
+    "https://iptv-org.github.io/iptv/countries/eg.m3u",  # مصر - قناة دينية + عامة
+
+    # قنوات إخبارية عالمية
+    "https://iptv-org.github.io/iptv/streams/news.m3u",  # قنوات أخبار متعددة
 ]
 
 def fetch_m3u(url):
