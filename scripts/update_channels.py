@@ -12,6 +12,8 @@ CONFIG_SOURCES_PATH = "config/m3u_sources.json"
 DEFAULT_M3U_SOURCES = [
     "https://iptv-org.github.io/iptv/countries/sa.m3u",
     "https://iptv-org.github.io/iptv/countries/eg.m3u",
+    "https://raw.githubusercontent.com/ARAB-IPTV/ARAB-IPTV/refs/heads/main/ARABIPTV.m3u",
+    
 ]
 
 # دالة لقراءة المصادر من ملف التكوين أو إنشاء الملف بالمصادر الافتراضية
