@@ -1,43 +1,36 @@
 import requests
 import json
 
-# رابط JSON الحالي في GitHub (الذي سيتم تحديثه لاحقًا)
-CHANNELS_JSON_PATH = "remote/channels.json"
-
-# مثال: قائمة مصادر جاهزة من GitHub (يمكنك إضافة أكثر من مصدر)
+# --------------------- قوائم M3U (يمكنك إضافة المزيد هنا) ---------------------
 M3U_SOURCES = [
-    # ----------------- قنوات دينية -----------------
-    "https://iptv-org.github.io/iptv/countries/sa.m3u",      # السعودية
-    "https://iptv-org.github.io/iptv/countries/eg.m3u",      # مصر
-    "https://iptv-org.github.io/iptv/countries/ae.m3u",      # الإمارات
-    "https://iptv-org.github.io/iptv/genres/religion.m3u",   # قنوات دينية عامة
+    # قنوات دينية
+    "https://iptv-org.github.io/iptv/genres/religion.m3u",
+    "https://iptv-org.github.io/iptv/countries/sa.m3u",
+    "https://iptv-org.github.io/iptv/countries/eg.m3u",
 
-    # ----------------- قنوات إخبارية -----------------
-    "https://iptv-org.github.io/iptv/streams/news.m3u",      # أخبار عالمية
-    "https://iptv-org.github.io/iptv/streams/world.m3u",     # قنوات متنوعة عالمية
+    # قنوات إخبارية
+    "https://iptv-org.github.io/iptv/streams/news.m3u",
+    "https://iptv-org.github.io/iptv/streams/world.m3u",
 
-    # ----------------- قنوات رياضية -----------------
-    "https://iptv-org.github.io/iptv/streams/sports.m3u",    # رياضية عامة
-    "https://iptv-org.github.io/iptv/countries/gb.m3u",      # بريطانيا (تشمل رياضية وأخبارية)
-    
-    # ----------------- قنوات متنوعة -----------------
+    # قنوات رياضية
+    "https://iptv-org.github.io/iptv/streams/sports.m3u",
+
+    # قنوات متنوعة
     "https://iptv-org.github.io/iptv/streams/entertainment.m3u",
     "https://iptv-org.github.io/iptv/streams/music.m3u"
-
-    # قنوات دينية
-    "https://iptv-org.github.io/iptv/countries/sa.m3u",  # السعودية - تشمل قنوات دينية وإخبارية
-    "https://iptv-org.github.io/iptv/countries/eg.m3u",  # مصر - قناة دينية + عامة
-    "https://iptv-org.github.io/iptv/blob/master/streams/ae.m3u", # قنوات عربية مني
-    # قنوات إخبارية عالمية
-    "https://iptv-org.github.io/iptv/streams/news.m3u",  # قنوات أخبار متعددة
 ]
 
+# --------------------- مسار JSON للتطبيق ---------------------
+CHANNELS_JSON_PATH = "remote/channels.json"  # نسخة محلية للتطبيق
+
+# --------------------- دوال المساعدة ---------------------
 def fetch_m3u(url):
     try:
-        r = requests.get(url, timeout=10)
+        r = requests.get(url, timeout=15)
         r.raise_for_status()
         return r.text
-    except:
+    except Exception as e:
+        print(f"فشل تحميل M3U من {url} : {e}")
         return ""
 
 def parse_m3u(m3u_text):
@@ -50,21 +43,28 @@ def parse_m3u(m3u_text):
             channels.append({
                 "name": name,
                 "url": url,
-                "logo": "",
-                "category": "Auto"
+                "logo": "",        # يمكن إضافة شعارات لاحقًا
+                "category": "Other" # سنحدد الفئة لاحقًا
             })
     return channels
 
 def categorize_channel(channel):
     name = channel["name"].lower()
-    if "quran" in name:
+    url = channel["url"].lower()
+    # تصنيف القنوات حسب الاسم أو الرابط
+    if "quran" in name or "islam" in name:
         channel["category"] = "Quran"
-    elif "news" in name:
+    elif "news" in name or "aljazeera" in name or "cnn" in name:
         channel["category"] = "News"
+    elif "sport" in name or "football" in name:
+        channel["category"] = "Sports"
+    elif "music" in name or "entertainment" in name:
+        channel["category"] = "Entertainment"
     else:
         channel["category"] = "Other"
     return channel
 
+# --------------------- البرنامج الرئيسي ---------------------
 def main():
     all_channels = []
     for source in M3U_SOURCES:
@@ -73,7 +73,7 @@ def main():
         channels = [categorize_channel(ch) for ch in channels]
         all_channels.extend(channels)
 
-    # تنظيم القنوات حسب الفئات
+    # تنظيم القنوات حسب الفئة
     final_json = {"updated_at": "2026-01-08", "categories": []}
     categories = {}
     for ch in all_channels:
@@ -96,4 +96,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
