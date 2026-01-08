@@ -2,4 +2,7 @@
   {"name": "Saudi (countries/sa)", "url": "https://iptv-org.github.io/iptv/countries/sa.m3u"},
   {"name": "Egypt (countries/eg)", "url": "https://iptv-org.github.io/iptv/countries/eg.m3u"},
   {"name": "UAE streams (streams/ae)", "url": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ae.m3u"}
+ {"name": "UAE streams (streams/ae)", "url": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ae.m3u"}
+{"name": "arabic streams (streams/arabic)", "url": "https://raw.githubusercontent.com/ARAB-IPTV/ARAB-IPTV/refs/heads/main/ARABIPTV.m3u"}
+  
 ]
