@@ -9,7 +9,7 @@ M3U_SOURCES = [
     # قنوات دينية
     "https://iptv-org.github.io/iptv/countries/sa.m3u",  # السعودية - تشمل قنوات دينية وإخبارية
     "https://iptv-org.github.io/iptv/countries/eg.m3u",  # مصر - قناة دينية + عامة
-
+    "https://github.com/iptv-org/iptv/blob/master/streams/ae.m3u" , # قنوات عربية مني
     # قنوات إخبارية عالمية
     "https://iptv-org.github.io/iptv/streams/news.m3u",  # قنوات أخبار متعددة
 ]
