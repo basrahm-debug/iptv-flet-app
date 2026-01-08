@@ -2,7 +2,7 @@ import requests
 import json
 
 # رابط JSON الحالي في GitHub (الذي سيتم تحديثه لاحقًا)
-CHANNELS_JSON_PATH = "../remote/channels.json"
+CHANNELS_JSON_PATH = "remote/channels.json"
 
 # مثال: قائمة مصادر جاهزة من GitHub (يمكنك إضافة أكثر من مصدر)
 M3U_SOURCES = [
