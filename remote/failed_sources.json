@@ -1,0 +1,26 @@
+[
+  {
+    "source": "https://iptv-org.github.io/iptv/genres/religion.m3u",
+    "error": "404 Client Error: Not Found for url: https://iptv-org.github.io/iptv/genres/religion.m3u"
+  },
+  {
+    "source": "https://iptv-org.github.io/iptv/streams/news.m3u",
+    "error": "404 Client Error: Not Found for url: https://iptv-org.github.io/iptv/streams/news.m3u"
+  },
+  {
+    "source": "https://iptv-org.github.io/iptv/streams/world.m3u",
+    "error": "404 Client Error: Not Found for url: https://iptv-org.github.io/iptv/streams/world.m3u"
+  },
+  {
+    "source": "https://iptv-org.github.io/iptv/streams/sports.m3u",
+    "error": "404 Client Error: Not Found for url: https://iptv-org.github.io/iptv/streams/sports.m3u"
+  },
+  {
+    "source": "https://iptv-org.github.io/iptv/streams/entertainment.m3u",
+    "error": "404 Client Error: Not Found for url: https://iptv-org.github.io/iptv/streams/entertainment.m3u"
+  },
+  {
+    "source": "https://iptv-org.github.io/iptv/streams/music.m3u",
+    "error": "404 Client Error: Not Found for url: https://iptv-org.github.io/iptv/streams/music.m3u"
+  }
+]
