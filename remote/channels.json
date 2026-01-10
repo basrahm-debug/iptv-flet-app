@@ -1794,7 +1794,7 @@
         },
         {
           "name": "الـــيوم",
-          "url": "https://iko-live.akamaized.net/AlyuamTV/master.m3u8",
+          "url": "https://hlspackager.akamaized.net/live/DB/ALYAUM_TV/HLS/ALYAUM_TV.m3u8",
           "logo": "",
           "category": "Other"
         },
@@ -2478,19 +2478,19 @@
         },
         {
           "name": "الجزيرة الإخبارية",
-          "url": "https://live-hls-apps-aja-fa.getaj.net/AJA/index.m3u8",
+          "url": "https://live-hls-web-aja.getaj.net/AJA/index.m3u8",
           "logo": "",
           "category": "Other"
         },
         {
           "name": "الجزيرة مباشر",
-          "url": "https://live-hls-apps-ajm-fa.getaj.net/AJM/index.m3u8",
+          "url": "https://live-hls-web-ajm-fa.thehlive.com/AJM/index.m3u8",
           "logo": "",
           "category": "Other"
         },
         {
           "name": "2الجزيرة مباشر",
-          "url": "https://live-hls-apps-ajm24-fa.getaj.net/AJM24/index.m3u8",
+          "url": "https://live-hls-web-ajm24-fa.getaj.net/AJM24/index.m3u8",
           "logo": "",
           "category": "Other"
         },
@@ -2532,7 +2532,7 @@
         },
         {
           "name": "القاهرة الإخبارية",
-          "url": "https://bcovlive-a.akamaihd.net/d30cbb3350af4cb7a6e05b9eb1bfd850/eu-west-1/6057955906001/profile_0/chunklist.m3u8",
+          "url": "https://fastly.live.brightcove.com/1843520572297019367/eu-central-1/6057955906001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiYXltc3VjLmVncmVzcy5haGc3NmwiLCJhY2NvdW50X2lkIjoiNjA1Nzk1NTkwNjAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MDU3OTU1OTA2MDAxIl0sImp0aSI6IjE4NDM1MjA1NzIyOTcwMTkzNjcifQ.VDAy1TCwzlhiHq7touUEdjjhIJL8dl-x5KiSVpjOKWc/chunklist.m3u8",
           "logo": "",
           "category": "Other"
         },
