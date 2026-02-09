@@ -137,8 +137,8 @@
           "category": "Other"
         },
         {
-          "name": "M+ (1080p)",
-          "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/m-plus/master.m3u8",
+          "name": "M+",
+          "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/m-plus/master.m3u8?ads.vf=6otIjpqWKPe",
           "logo": "",
           "category": "Other"
         },
@@ -203,8 +203,8 @@
           "category": "Other"
         },
         {
-          "name": "Rotana Aflam+ (1080p)",
-          "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/rotana-aflam-plus/master.m3u8",
+          "name": "Rotana Aflam+",
+          "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/rotana-aflam-plus/master.m3u8?ads.vf=0PRJnP3xh_q",
           "logo": "",
           "category": "Other"
         },
