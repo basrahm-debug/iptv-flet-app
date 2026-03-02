@@ -17,12 +17,6 @@
           "category": "Other"
         },
         {
-          "name": "Al Arabiya Al Hadath (1080p) [Not 24/7]",
-          "url": "https://av.alarabiya.net/alarabiapublish/alhadath.smil/playlist.m3u8",
-          "logo": "",
-          "category": "Other"
-        },
-        {
           "name": "Al Arabiya English (1080p)",
           "url": "https://live.alarabiya.net/alarabiapublish/english/playlist_dvr.m3u8",
           "logo": "",
@@ -31,6 +25,12 @@
         {
           "name": "Al Ekhbariya (1080p)",
           "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-al-ekhbaria/297b3ef1cd0633ad9cfba7473a686a06/index.m3u8",
+          "logo": "",
+          "category": "Other"
+        },
+        {
+          "name": "Al Hadath (1080p)",
+          "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-hadath/2ff87ec4c2f3ede35295a20637d9f8fd/index.m3u8",
           "logo": "",
           "category": "Other"
         },
@@ -149,8 +149,8 @@
           "category": "Other"
         },
         {
-          "name": "Makkah [Geo-blocked]",
-          "url": "#EXTVLCOPT:http-referrer=https://www.dens.tv/",
+          "name": "Makkah TV (576p)",
+          "url": "https://media2.streambrothers.com:1936/8122/8122/playlist.m3u8",
           "logo": "",
           "category": "Other"
         },
@@ -209,14 +209,14 @@
           "category": "Other"
         },
         {
-          "name": "Rotana Cinema KSA (1080p) [Geo-blocked]",
-          "url": "#EXTVLCOPT:http-referrer=https://rotana.net/",
+          "name": "Rotana Cinema KSA (1080p)",
+          "url": "https://bcovlive-a.akamaihd.net/9527a892aeaf43019fd9eeb77ad1516e/eu-central-1/6057955906001/playlist.m3u8",
           "logo": "",
           "category": "Other"
         },
         {
-          "name": "Rotana Classic (1080p) [Geo-blocked]",
-          "url": "#EXTVLCOPT:http-referrer=https://rotana.net/",
+          "name": "Rotana Classic (1080p)",
+          "url": "https://bcovlive-a.akamaihd.net/0debf5648e584e5fb795c3611c5c0252/eu-central-1/6057955906001/playlist.m3u8",
           "logo": "",
           "category": "Other"
         },
