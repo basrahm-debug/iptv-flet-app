@@ -137,8 +137,8 @@
           "category": "Other"
         },
         {
-          "name": "M+",
-          "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/m-plus/master.m3u8?ads.vf=6otIjpqWKPe",
+          "name": "M+ (1080p)",
+          "url": "#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0",
           "logo": "",
           "category": "Other"
         },
@@ -203,8 +203,8 @@
           "category": "Other"
         },
         {
-          "name": "Rotana Aflam+",
-          "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/rotana-aflam-plus/master.m3u8?ads.vf=0PRJnP3xh_q",
+          "name": "Rotana Aflam+ (1080p)",
+          "url": "#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0",
           "logo": "",
           "category": "Other"
         },
@@ -401,8 +401,8 @@
           "category": "Other"
         },
         {
-          "name": "PNC Drama",
-          "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/pnc-drama/master.m3u8?ads.vf=xdliEBYtdWS",
+          "name": "PNC Drama (1080p)",
+          "url": "#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0",
           "logo": "",
           "category": "Other"
         },
