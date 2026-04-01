@@ -131,6 +131,12 @@
           "category": "Other"
         },
         {
+          "name": "Jeddah Radio (1080p)",
+          "url": "https://live.kwikmotion.com/sbrksajeddahradiolive/srpksajeddahradio/chunks.m3u8",
+          "logo": "",
+          "category": "Other"
+        },
+        {
           "name": "LBC (1080p) [Geo-blocked]",
           "url": "#EXTVLCOPT:http-referrer=https://rotana.net/",
           "logo": "",
