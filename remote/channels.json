@@ -12,7 +12,7 @@
         },
         {
           "name": "Aflam (1080p)",
-          "url": "https://shls-live-enc.edgenextcdn.net/out/v1/0044dd4b001a466c941ad77b04a574a2/index.m3u8",
+          "url": "https://shd-amg-fast.edgenextcdn.net/tx001/playlist.m3u8",
           "logo": "",
           "category": "Other"
         },
@@ -67,12 +67,6 @@
         {
           "name": "Alkhuzama Radio (1080p)",
           "url": "https://live.kwikmotion.com/sbrksakhuzamaradiolive/srpkhuzama/playlist.m3u8",
-          "logo": "",
-          "category": "Other"
-        },
-        {
-          "name": "Anime (1080p)",
-          "url": "https://shls-live-enc.edgenextcdn.net/out/v1/e7350ddf46c94dddafe14b099394ff56/index.m3u8",
           "logo": "",
           "category": "Other"
         },
@@ -198,7 +192,7 @@
         },
         {
           "name": "Rabeh Saqer (1080p)",
-          "url": "https://shls-live-enc.edgenextcdn.net/out/v1/ea4275b6dc0840c198c17f6dc6f1ec49/index.m3u8",
+          "url": "https://shd-amg-fast.edgenextcdn.net/tx004/playlist.m3u8",
           "logo": "",
           "category": "Other"
         },
@@ -271,12 +265,6 @@
         {
           "name": "SBC (1080p)",
           "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-sbc/90e09c0c28db26435799b4a14892a167/index.m3u8",
-          "logo": "",
-          "category": "Other"
-        },
-        {
-          "name": "Spooky Nights (1080p)",
-          "url": "https://shls-live-enc.edgenextcdn.net/out/v1/18cffab0757d448ca6c1a686d330b346/index.m3u8",
           "logo": "",
           "category": "Other"
         },
