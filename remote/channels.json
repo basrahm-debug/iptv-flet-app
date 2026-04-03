@@ -113,6 +113,12 @@
           "category": "Other"
         },
         {
+          "name": "Goal Zone (1080p)",
+          "url": "https://shls-live-enc.edgenextcdn.net/out/v1/18cffab0757d448ca6c1a686d330b346/index.m3u8",
+          "logo": "",
+          "category": "Other"
+        },
+        {
           "name": "Iqraa Africa & Europe (1080p)",
           "url": "https://playlist.fasttvcdn.com/pl/dlkqw1ftuvuuzkcb4pxdcg/Iqraafasttv1/playlist.m3u8",
           "logo": "",
