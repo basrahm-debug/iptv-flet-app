@@ -96,7 +96,7 @@
         },
         {
           "name": "Bab Al Hara (1080p)",
-          "url": "https://shls-live-enc.edgenextcdn.net/out/v1/948c54279b594944adde578c95f1d7d1/index.m3u8",
+          "url": "https://shd-amg-fast.edgenextcdn.net/tx010/playlist.m3u8",
           "logo": "",
           "category": "Other"
         },
@@ -162,7 +162,7 @@
         },
         {
           "name": "Maraya (1080p)",
-          "url": "https://shls-live-enc.edgenextcdn.net/out/v1/a4a39d8e92e34b0780ca602270a59512/index.m3u8",
+          "url": "https://shd-amg-fast.edgenextcdn.net/tx008/playlist.m3u8",
           "logo": "",
           "category": "Other"
         },
@@ -180,7 +180,7 @@
         },
         {
           "name": "Movies Action (1080p)",
-          "url": "https://shls-live-enc.edgenextcdn.net/out/v1/46079e838e65490c8299f902a7731168/index.m3u8",
+          "url": "https://shd-amg-fast.edgenextcdn.net/tx011/playlist.m3u8",
           "logo": "",
           "category": "Other"
         },
