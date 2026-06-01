@@ -275,18 +275,6 @@
           "category": "Other"
         },
         {
-          "name": "Thmanyah 1 (1080p)",
-          "url": "https://dflive.app.tc/20.m3u8",
-          "logo": "",
-          "category": "Other"
-        },
-        {
-          "name": "Thmanyah 3 (1080p)",
-          "url": "https://dflive.app.tc/61.m3u8",
-          "logo": "",
-          "category": "Other"
-        },
-        {
           "name": "Aghapy TV (1080p) [Not 24/7]",
           "url": "https://5b622f07944df.streamlock.net/aghapy.tv/aghapy.smil/playlist.m3u8",
           "logo": "",
@@ -385,12 +373,6 @@
         {
           "name": "Mekameleen TV (1080p)",
           "url": "https://mn-nl.mncdn.com/mekameleen/smil:mekameleentv.smil/playlist.m3u8",
-          "logo": "",
-          "category": "Other"
-        },
-        {
-          "name": "Melody Hits (576p)",
-          "url": "https://mumt03.tangotv.in/MELODYHITS/index.m3u8",
           "logo": "",
           "category": "Other"
         },
