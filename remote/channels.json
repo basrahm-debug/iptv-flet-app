@@ -293,6 +293,12 @@
           "category": "Other"
         },
         {
+          "name": "Al Masriyah (1080p)",
+          "url": "http://185.9.2.18/chid_247/index.m3u8",
+          "logo": "",
+          "category": "Other"
+        },
+        {
           "name": "ATVSat (1080p) [Not 24/7]",
           "url": "https://stream.atvsat.com/atvsatlive/smil:atvsatlive.smil/playlist.m3u8",
           "logo": "",
