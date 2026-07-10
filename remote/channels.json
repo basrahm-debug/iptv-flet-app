@@ -107,6 +107,12 @@
           "category": "Other"
         },
         {
+          "name": "Dr Pal TV (720p)",
+          "url": "https://stream.cisk.tech/drpal/index.m3u8",
+          "logo": "",
+          "category": "Other"
+        },
+        {
           "name": "Fairuz (1080p)",
           "url": "https://shd-amg-fast.edgenextcdn.net/tx029/playlist.m3u8",
           "logo": "",
