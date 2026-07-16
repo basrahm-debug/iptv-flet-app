@@ -143,12 +143,6 @@
           "category": "Other"
         },
         {
-          "name": "M+ (1080p)",
-          "url": "#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0",
-          "logo": "",
-          "category": "Other"
-        },
-        {
           "name": "Majid Al Mohandis (1080p)",
           "url": "https://shd-amg-fast.edgenextcdn.net/tx019/playlist.m3u8",
           "logo": "",
@@ -205,12 +199,6 @@
         {
           "name": "Rashid AlMajed (1080p)",
           "url": "https://dphwv2ufgnfsq.cloudfront.net/out/v1/59cd80dfe93a479eb8b4d79bc6f225ca/index.m3u8",
-          "logo": "",
-          "category": "Other"
-        },
-        {
-          "name": "Rotana Aflam+ (1080p)",
-          "url": "#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0",
           "logo": "",
           "category": "Other"
         },
@@ -397,12 +385,6 @@
         {
           "name": "NogoumFMTV (672p) [Not 24/7]",
           "url": "https://nogoumtv.nrpstream.com/hls/stream.m3u8",
-          "logo": "",
-          "category": "Other"
-        },
-        {
-          "name": "PNC Drama (1080p)",
-          "url": "#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0",
           "logo": "",
           "category": "Other"
         },
