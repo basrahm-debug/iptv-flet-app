@@ -137,8 +137,8 @@
           "category": "Other"
         },
         {
-          "name": "LBC (1080p) [Geo-blocked]",
-          "url": "#EXTVLCOPT:http-referrer=https://rotana.net/",
+          "name": "LBC (1080p)",
+          "url": "http://185.9.2.18/chid_327/index.m3u8",
           "logo": "",
           "category": "Other"
         },
@@ -343,6 +343,12 @@
         {
           "name": "Koogi TV (1080p)",
           "url": "https://5d658d7e9f562.streamlock.net/koogi.tv/koogi.smil/playlist.m3u8",
+          "logo": "",
+          "category": "Other"
+        },
+        {
+          "name": "Mazzika (576p)",
+          "url": "http://149.100.11.235:8080/Mazzika/index.m3u8",
           "logo": "",
           "category": "Other"
         },
