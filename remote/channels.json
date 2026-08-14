@@ -167,6 +167,12 @@
           "category": "Other"
         },
         {
+          "name": "MBC Loud",
+          "url": "https://radio-loud-fm.mbc.net/radio-loud-fm_1.m3u8",
+          "logo": "",
+          "category": "Other"
+        },
+        {
           "name": "MBC Mood (1080p)",
           "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-mood/78367bf48ccdba501d0d014a10c21031/index.m3u8",
           "logo": "",
