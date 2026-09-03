@@ -17,6 +17,12 @@
           "category": "Other"
         },
         {
+          "name": "Al Alam Al Yawm",
+          "url": "https://mn-nl.mncdn.com/mekameleen/smil:mekameleentv.smil/chunklist_b928000.m3u8",
+          "logo": "",
+          "category": "Other"
+        },
+        {
           "name": "Al Arabiya English (1080p)",
           "url": "https://live.alarabiya.net/alarabiapublish/english/playlist_dvr.m3u8",
           "logo": "",
