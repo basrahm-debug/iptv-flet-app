@@ -149,8 +149,8 @@
           "category": "Other"
         },
         {
-          "name": "LBC (1080p) [Geo-blocked]",
-          "url": "#EXTVLCOPT:http-referrer=https://rotana.net/",
+          "name": "LBC (576p)",
+          "url": "http://185.9.2.18/chid_327/index.m3u8",
           "logo": "",
           "category": "Other"
         },
