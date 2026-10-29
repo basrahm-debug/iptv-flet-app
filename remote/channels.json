@@ -341,6 +341,12 @@
           "category": "Other"
         },
         {
+          "name": "Hya TV (1080p)",
+          "url": "https://freem3u.xyz/api/live/play.m3u8?vid=187",
+          "logo": "",
+          "category": "Other"
+        },
+        {
           "name": "Koogi TV (1080p)",
           "url": "https://5d658d7e9f562.streamlock.net/koogi.tv/koogi.smil/playlist.m3u8",
           "logo": "",
